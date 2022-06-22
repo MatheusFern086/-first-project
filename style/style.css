@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(186, 183, 183);
+    background-color:white;
 	font-family:"tribuchet MS", Helvetica, sans-serif;
 }
 
@@ -12,7 +12,7 @@ a{
 	border-bottom:1px solid rgb(186, 183, 183);
 	background-color:black;
     font-size:18px;
-	height:60px;
+	height:45px;
 	width:100%;
 	position:fixed;
 	top:0;
@@ -29,7 +29,8 @@ a{
 
 #area{
 	text-decoration:none;
-	width:720px;
+	padding-left: 20%;
+    padding-right: 20%;
 	margin:0 auto;
 }
 
@@ -37,6 +38,26 @@ a{
     color:white;
     float:right;
 	padding:10px 0;
+}
+
+#banner{
+    float:left;
+	margin-right:8px;
+	margin-bottom:8px;
+    width: 60%;
+    height: 350px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+#conteudo-principal{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+#footer{
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 .verde{
